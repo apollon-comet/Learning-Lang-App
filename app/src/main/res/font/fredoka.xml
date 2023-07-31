@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><font-family xmlns:app="http://schemas.android.com/apk/res-auto">
+    <font app:font="@font/fredokasemibold" app:fontWeight="600"/>
+    <font app:font="@font/fredokamedium" app:fontWeight="500"/>
+    <font app:font="@font/fredokaregular" app:fontWeight="400"/>
+</font-family>

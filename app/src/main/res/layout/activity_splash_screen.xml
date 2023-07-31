@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="splashScreenVM" type="com.llapp.app.modules.splashscreen.data.viewmodel.SplashScreenVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearSplashScreen"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStyledeep_purple_800">
+        <ImageView android:id="@+id/imageImageTwentyEight"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_152pxh"
+            android:layout_marginEnd="@dimen/_70pxh"
+            android:layout_marginStart="@dimen/_70pxh"
+            android:layout_marginTop="@dimen/_250pxv"
+            android:layout_width="@dimen/_164pxh"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_image28}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_image28"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtLanguageApp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_70pxh"
+            android:layout_marginStart="@dimen/_70pxh"
+            android:layout_marginTop="@dimen/_27pxv"
+            android:layout_width="match_parent"
+            android:lineSpacingExtra="@dimen/_8pxh"
+            android:singleLine="true"
+            android:text="@{splashScreenVM.splashScreenModel.txtLanguageApp}"
+            style="@style/txtFredokasemibold36" tools:text="@string/lbl_language_app"/>
+    </LinearLayout>
+</layout>
