@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="whatIsYourMotherLanguageVM" type="com.llapp.app.modules.whatisyourmotherlanguage.data.viewmodel.WhatIsYourMotherLanguageVM"/>
+    </data>
+    <FrameLayout android:id="@+id/frameWhatIsYourMo"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageWhatIsYourMo"
+            android:layout_gravity="start"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:scaleType="fitXY"
+            imageRes="@{@drawable/img_whatisyourmo}"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_whatisyourmo"/>
+    </FrameLayout>
+</layout>

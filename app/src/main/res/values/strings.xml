@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+    <string name="app_name">ll_app</string>
+    <string name="loading">Loading…</string>
+    <string name="no_internet_connection">No internet connection!</string>
+<string name="msg_for_free_join">For free, join now and start learning</string>
+<string name="lbl_continue">Continue</string>
+<string name="msg_confidence_in_y">Confidence in your words</string>
+<string name="msg_choose_a_langua">Choose a language</string>
+<string name="msg_take_your_time">Take your time to learn</string>
+<string name="lbl_email_address">Email Address</string>
+<string name="lbl_last_name">Last Name</string>
+<string name="msg_with_conversati">"With conversation-based learning, you'll be talking from lesson one"</string>
+<string name="msg_confirm_passwor">Confirm Password</string>
+<string name="msg_already_a_fillo2">Already a fillolearn user?</string>
+<string name="lbl_not_you_member">Not you member?</string>
+<string name="msg_choose_a_passwo">Choose a Password</string>
+<string name="msg_already_a_fillo">Already a fillolearn user? Log in</string>
+<string name="lbl_first_name">First Name</string>
+<string name="lbl_signup">Signup</string>
+<string name="msg_using_a_variety">Using a variety of learning styles to learn and retain</string>
+<string name="msg_the_lessons_you">The lessons you need to learn</string>
+<string name="msg_already_you_mem">Already you member? Login</string>
+<string name="lbl_log_in">Log in</string>
+<string name="lbl_forgot_password">Forgot Password </string>
+<string name="msg_develop_a_habit">Develop a habit of learning and make it a part of your daily routine</string>
+<string name="msg_not_you_member">Not you member? Signup</string>
+<string name="lbl_login2">Login</string>
+<string name="lbl_password">Password</string>
+<string name="lbl_language_app">Language App</string>
+<string name="lbl_or">Or</string>
+<string name="msg_placeholder_tex">Placeholder text</string>
+<string name="msg_already_you_mem2">Already you member? </string>
+<string name="msg_already_you_mem3">Already you member</string>
+<string name="msg_create_an_accou">Create an Account</string>
+<string name="lbl">\?</string>
+</resources>

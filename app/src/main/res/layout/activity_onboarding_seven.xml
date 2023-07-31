@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable name="onboardingSevenVM" type="com.llapp.app.modules.onboardingseven.data.viewmodel.OnboardingSevenVM"/>
+    </data>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearOnboardingSeve"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylewhite_A700">
+        <ImageView android:id="@+id/imageIllustrations"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="@dimen/_220pxh"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_147pxv"
+            android:layout_width="@dimen/_240pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_illustrations"
+            tools:ignore="ContentDescription" tools:src="@drawable/img_illustrations"/>
+
+        <com.asksira.loopingviewpager.indicator.CustomShapePagerIndicator
+            android:id="@+id/indicatorCheckmark"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_114pxv"
+            android:layout_width="wrap_content"
+            app:drawable_normal="@drawable/indicator_unselected_bg_gray_900_33_radius_8"
+            app:drawable_selected="@drawable/indicator_selected_bg_orange_800_radius_8"
+            app:indicator_size="@dimen/_8pxh" app:indicator_spacing="@dimen/_8pxh"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtConfidenceiny"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_43pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="@dimen/_5pxh"
+            android:singleLine="true"
+            android:text="@{onboardingSevenVM.onboardingSevenModel.txtConfidenceiny}"
+            style="@style/txtFredokamedium22" tools:text="@string/msg_confidence_in_y"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtWithconversati"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_7pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="@dimen/_5pxh"
+            android:text="@{onboardingSevenVM.onboardingSevenModel.txtWithconversati}"
+            style="@style/txtFredokaregular15" tools:text="@string/msg_with_conversati"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnChooseALanguageOne"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_46pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="@dimen/_5pxh"
+            android:paddingBottom="@dimen/_15pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_15pxv" android:singleLine="true"
+            android:text="@string/msg_choose_a_langua"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/msg_choose_a_langua"/>
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtAlreadyafillo"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_24pxh"
+            android:layout_marginStart="@dimen/_24pxh"
+            android:layout_marginTop="@dimen/_34pxv"
+            android:layout_width="match_parent"
+            android:letterSpacing="0.01"
+            android:lineSpacingExtra="@dimen/_4pxh"
+            android:singleLine="true"
+            android:text="@{onboardingSevenVM.onboardingSevenModel.txtAlreadyafillo}"
+            style="@style/txtFredokaregular15_1" tools:text="@string/msg_already_a_fillo"/>
+    </LinearLayout>
+</layout>
